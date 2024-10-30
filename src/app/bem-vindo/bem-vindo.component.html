@@ -21,54 +21,63 @@
       <p class="fs-4 pt-1"></p>
       <div class="fs-5">
 
-      <!-- Primeira Seção (Trocar texto com imagem) -->
-      <div class="row pt-4 pb-4 text-center">
-        <div class="col-md-6 text-center order-md-2">
-          <!-- Imagem expansível -->
-          <img
-            src="assets/imgs/rosinha.png"
-            class="img-fluid rounded-circle static-image"
-            alt="cupcake morango"
+    <div class="row align-items-center">
+
+      <!-- Container da Imagem -->
+      <div class="col-md-6 order-md-2 d-flex justify-content-center">
+        <div class="image-container">
+          <img src="assets/imgs/rosinha.png" class="img-fluid rounded-circle static-image" alt="cupcake morango"
             (click)="expandImage('assets/imgs/rosinha.png')"> <!-- Clique para expandir a imagem -->
         </div>
-        <div class="col-md-6 text-center order-md-1">
-          <div class="card p-3">
-            <p class="text fs-5 fw-bolder pb-2 pt-0">Visão</p>
-            <div class="fs-6">
-              <p>Ser referência como produtora de cupcakes sem glúten com excelência de qualidade.</p>
-            </div>
-            <p class="text fs-5 fw-bolder pb-2 pt-0">Missão</p>
-            <div class="fs-6">
-              <p>Atender cada cliente com carinho para que nossos produtos proporcionem deliciosos momentos na vida das pessoas.</p>
-            </div>
-            <p class="text fs-5 fw-bolder pb-2 pt-0">Valores</p>
-            <div class="fs-6">
-              <p>Respeito e responsabilidade na produção de cupcakes sem glúten para que nossos clientes tenham segurança e confiança em nossa marca.</p>
-            </div>
+      </div>
+      <p class="fs-2 pt-1"></p>
+      <p class="fs-2 pt-1"></p>
+
+      <!-- Container do Texto -->
+      <div class="col-md-6 order-md-1">
+        <div class="card p-4 text-container text-center">
+          <p class="text fs-5 fw-bolder pb-2">Visão</p>
+          <div class="fs-6">
+            <p>Ser referência como produtora de cupcakes sem glúten com excelência de qualidade.</p>
+          </div>
+          <p class="text fs-5 fw-bolder pb-2">Missão</p>
+          <div class="fs-6">
+            <p>Atender cada cliente com carinho para que nossos produtos proporcionem deliciosos momentos na vida das pessoas.</p>
+          </div>
+          <p class="text fs-5 fw-bolder pb-2">Valores</p>
+          <div class="fs-6">
+            <p>Respeito e responsabilidade na produção de cupcakes sem glúten para que nossos clientes tenham segurança e confiança em nossa marca.</p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <p class="fs-2 pt-1"></p>
+  <p class="fs-2 pt-1"></p>
 
-      <!-- Seção Endereço e Contato (Trocar lados de novo) -->
-  <div class="row pt-5 text-justify" id="contato">
-    <div class="col-md-6 text-justify order-md-2"> <!-- Texto vai para o lado direito em telas maiores -->
-      <div class="card p-3">
-        <p class="fs-5 fw-bold">Esperamos a sua visita!</p>
+  <div class="row align-items-center">
+
+    <!-- Container da Imagem -->
+    <div class="col-md-6 order-md-1 d-flex justify-content-center">
+      <div class="image-container">
+        <img src="assets/imgs/baunilha.jpg" class="img-fluid rounded-circle static-image" alt="cupcake baunilha"
+          (click)="expandImage('assets/imgs/baunilha.jpg')"> <!-- Clique para expandir a imagem -->
+      </div>
+    </div>
+    <p class="fs-2 pt-1"></p>
+    <p class="fs-2 pt-1"></p>
+
+    <!-- Container do Texto -->
+    <div class="col-md-6 order-md-2">
+      <div class="card p-4 text-container text-center">
+        <p class="text fs-5 fw-bolder pb-2">Esperamos a sua visita!</p>
         <div class="fs-6">
-          <p>Av. Bernardino de Campos, 98<br> São Paulo - SP</p>
-          <p>info@cupcakepop.com<br>WhatsApp: (11) 93456-7890</p>
+          <p>Av. Caramelos Bonitos, 123<br> São Paulo - SP</p>
+          <p>info@cupcakepop.com<br>WhatsApp: (11) 91234-5678</p>
           <p>Horário de atendimento: <br>Segunda a Sábado<br>Das 10h às 20h</p>
           <p>Consulte nossas promoções!</p>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 text-justify order-md-1">
-      <!-- Imagem expansível -->
-      <img
-        src="assets/imgs/baunilha.jpg"
-        class="img-fluid rounded-circle static-image"
-        alt="cupcake morango"
-        (click)="expandImage('assets/imgs/baunilha.jpg')"> <!-- Clique para expandir a imagem -->
     </div>
   </div>
 
@@ -80,7 +89,7 @@
         </div>
       </div>
     </div>
-  </div>
+
 
         <!-- Copyright -->
       <div class="text-center footer">
@@ -89,4 +98,5 @@
         <p class="fs-4 pt-1"></p>
     </div>
     <!-- Copyright -->
+
 

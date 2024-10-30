@@ -60,7 +60,17 @@
   object-fit: contain; /* Garante que a imagem se ajuste corretamente sem distorcer */
 }
 
-.card-text {
+.text-start {
   font-size: 1rem;
   color:#8B4513;
+}
+
+/* .text-right {
+  font-size: 1rem;
+  color:#8B4513;
+} */
+
+.card {
+  position:flex;
+
 }

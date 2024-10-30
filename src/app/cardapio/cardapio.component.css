@@ -1,9 +1,7 @@
 .container {
   padding-left: 3rem;
   padding-right: 3rem;
-  /* font-size: 1.2rem; */
-  font-family: 'Poppins', sans-serif;
-  color:#8B4513;
+
 }
 
 /* Estilos para o modal */
@@ -28,8 +26,8 @@
 /* Conteúdo do modal */
 .modal-content {
   position: relative;
-  max-width: 600px;
-  max-height: 600px;
+  max-width: 400px;
+  max-height: 400px;
   width: 100%;
   height: auto;
   background-color: rgb(139, 69, 19, 0.5);
@@ -85,3 +83,4 @@
       margin-bottom: 20px;
   }
 }
+
